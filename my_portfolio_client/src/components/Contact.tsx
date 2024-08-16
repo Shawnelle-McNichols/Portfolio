@@ -115,7 +115,7 @@ const Contact: React.FC = () => {
                             onChange={handleEmailFormChange}/>
                     </div>
                     <div className="form-item">
-                        <label>Phone number(optional)</label>
+                        <label>Phone number (optional) </label>
                         <input
                             type="phone"
                             name="phone"
