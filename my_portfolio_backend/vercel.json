@@ -1,0 +1,14 @@
+{
+    "builds": [
+        {
+            "src": "my_portfolio_backend/server.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/api/(.*)",
+            "dest": "my_portfolio_backend/server.js"
+        }
+    ]
+}

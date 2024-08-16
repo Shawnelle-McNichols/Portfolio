@@ -3,12 +3,9 @@ var router = express.Router();
 var nodemailer = require('nodemailer');
 var bodyParser = require('body-parser');
 var cors = require('cors');
-const fs = require('fs');
 const creds = require('./config');
 
 const app = express();
-const serverPort = process.env.serverPort || 5000;
-
 app.use(cors());
 app.use(bodyParser.json());
 app.use('/', router);
@@ -84,4 +81,4 @@ router.post('/send', (req, res, next) => {
         }
     })
 })
-app.listen(serverPort, () => console.log(`backend is running on port ${serverPort}`));
+module.exports = app;
