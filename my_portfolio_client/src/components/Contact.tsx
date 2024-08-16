@@ -115,13 +115,12 @@ const Contact: React.FC = () => {
                             onChange={handleEmailFormChange}/>
                     </div>
                     <div className="form-item">
-                        <label>Phone number</label>
+                        <label>Phone number(optional)</label>
                         <input
                             type="phone"
                             name="phone"
                             className="form-control form-box"
-                            placeholder="123-456-7890"
-                            required={true}
+                            placeholder="123-456-7890"                           
                             value={emailForm.phone} 
                             onChange={handleEmailFormChange}/>
                     </div>
