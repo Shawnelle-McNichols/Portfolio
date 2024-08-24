@@ -9,16 +9,16 @@ const projects = [
         demo: "https://drive.google.com/file/d/1BGGpm4gIREiJaqAJRiCC4F1XtMMOUXr5/view?usp=drive_link"
     },
     {
-        id: 2, img: "/MCSHome.png", title: "Medical Clinic System",
+        id: 2, img: "MCSHome.png", title: "Medical Clinic System",
         description: "Created with MERN stack. Complete with secure user authentication system. Allows patients to fully manage their doctor's appointments.",
         link: "https://github.com/Shawnelle-McNichols/Medical-Appointment-System/tree/main",
         demo: "https://drive.google.com/file/d/1lRkDfj7upW3FIZ2af01np0j_CF2MoFe2/view?usp=drive_link"
     },
     {
-        id: 3, img: "/HRS.png", title: "Hotel Reservation System",
+        id: 3, img: "/HHS.png", title: "Hotel Reservation System",
         description: "Developed with Laravel the PHP framework and MySQL for the database. Allows users to open an account book a hotel reservation, based on hotel's availability.",
-        link: "https://github.com/Shawnelle-McNichols/Hotel-Reservation-System",
-        demo: ""
+        link: "https://github.com/Shawnelle-McNichols/Holiday-Hotel",
+        demo: "https://drive.google.com/file/d/1gjp6_ePhZpxglQMV7ESd4EVpSpsbXVWT/view?usp=drive_link"
     },
     {
         id: 4, img: "/Quiz.png", title: "Programming Quiz",
@@ -93,8 +93,8 @@ const Projects = () => {
                                         <div className="card-body">
                                             <h4 className="card-title">{project.title}</h4>
                                             <p className="card-text">{project.description}</p>
-                                                <a className="project-link" href={project.demo}>View Demo</a>
-                                                <a className="project-link" href={project.link}>View Code</a>
+                                                <a className="project-link" href={project.demo}>Demo</a>
+                                                <a className="project-link" href={project.link}>Code</a>
                                             
                                         </div>
                                     </div>
