@@ -25,6 +25,12 @@ const projects = [
         description: "Created with C# and WPF forms, this project is a simple quiz game with categorized questions loaded from a json file.",
         link: "https://github.com/Shawnelle-McNichols/ProgrammingQuiz",
         demo: "https://drive.google.com/file/d/1zBlr65E8YVj9e71hn2y0sVSLE0zgbvKr/view?usp=drive_link"
+    },
+    {
+        id: 5, img: "/cross.png", title: "Cross Social Media Application",
+        description: "Created with ASP.Net and Firebase. A basic social media application allowing profile creation, following other accounts, posting, likes and comments.",
+        link: "https://github.com/SusieTang0/SocialMediaApp_Team6",
+        demo: "https://drive.google.com/file/d/1RDtNdZQpWCDdMzGHtJvIn5AuX-rYQNq4/view?usp=sharing"
     }
 ]
 
